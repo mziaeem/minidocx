@@ -14,8 +14,7 @@ namespace MINIDOCX_NAMESPACE
   struct ParagraphProperties
   {
     std::string style_;
-    std::bool bidi_;
-    Direction direction_;
+    bool bidi_ = false;
 
 
     // Paragraph Alignment 对齐方式
@@ -51,10 +50,6 @@ namespace MINIDOCX_NAMESPACE
       Hanging
     };
 
-    enum class Direction {
-      Rtl,
-      Ltr
-    }
 
 
     // Paragraph Indentation 缩进

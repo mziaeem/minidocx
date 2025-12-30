@@ -1,0 +1,10 @@
+/home/majid/Development/libraries/minidocx/build/CMakeFiles/minidocx.dir
+/home/majid/Development/libraries/minidocx/build/CMakeFiles/edit_cache.dir
+/home/majid/Development/libraries/minidocx/build/CMakeFiles/rebuild_cache.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/myapp.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/pict.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/table.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/style.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/list.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/edit_cache.dir
+/home/majid/Development/libraries/minidocx/build/examples/CMakeFiles/rebuild_cache.dir

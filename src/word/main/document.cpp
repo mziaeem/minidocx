@@ -272,10 +272,17 @@ namespace MINIDOCX_NAMESPACE
 
     if (prop.pageBreakBefore_)
       w_pPr.append_child("w:pageBreakBefore");
+
+    if (prop.bidi_)
+      w_pPr.append_child("w:bidi");
+
   }
 
   static void writeRichTextProperties(pugi::xml_node w_rPr, const RichTextProperties& prop)
   {
+    if (prop.direction_ == RichTextProperties::Direction::Rtl)
+      w_rPr.append_child("w:rtl");
+
     if (prop.style_.size() > 0)
       w_rPr.append_child("w:rStyle").append_attribute("w:val") = removeSpaces(prop.style_).c_str();
 
@@ -888,6 +895,9 @@ namespace MINIDOCX_NAMESPACE
     auto& ptr = sections_.back();
     if (ptr->blocks().size() == 0)
       ptr->addParagraph();
+
+   // body.append_child("w:bidi");
+   // body.append_child("w:rtlGutter");
 
     for (auto& block : ptr->blocks())
       writeBlock(body, *block);

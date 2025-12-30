@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/table.dir/link.d CMakeFiles/table.dir/table.cpp.o -o ../bin/exe/table  ../bin/lib/libminidocx.a

@@ -1,11 +1,14 @@
 
-English | [简体中文](./README-zh_CN.md)
-
 <div align="center">
   <img src="./assets/logo.png" width="100px">
   <h1>minidocx</h1>
   <p>C++ library for manipulating Microsoft Word Document</p>
 </div>
+
+## Note
+This is a fork of minidocx that some BiDi and Rtl capabilities added to it. 
+It is working, but still is a work in progress. 
+
 
 ## About
 
@@ -14,8 +17,6 @@ minidocx is a modern, free, open-source, cross-platform, light-weight, and user-
 > [!WARNING]
 > minidocx 1.0 is currently in beta and should not be used in production.
 
-> [!NOTE]
-> Check out the master branch to view minidocx 0.6.
 
 ## Features
 
@@ -26,12 +27,8 @@ minidocx is a modern, free, open-source, cross-platform, light-weight, and user-
 - Picture
 - Style
 - List
+- Rtl Support
 
-## Preview
-
-Light Mode | Dark Mode
----------- | ---------
-![](./assets/screenshots/20250214232857.png) | ![](./assets/screenshots/20250214233038.png)
 
 ## Example
 
@@ -50,9 +47,11 @@ int main()
 
     ParagraphPointer para = sect->addParagraph();
     para->prop_.align_ = Alignment::Centered;
+    para->prop_.rtl_ = true; 
 
-    RichTextPointer rich = para->addRichText("Happy Chinese New Year!");
+    RichTextPointer rich = para->addRichText("سلام به دنیا یعنی Hello world");
     rich->prop_.fontSize_ = 32;
+    rich->prop_.direction_ = RichTextProperties::Direction::Rtl; 
     rich->prop_.color_ = "FF0000";
 
     doc.saveAs("a.docx");
@@ -69,7 +68,7 @@ int main()
 To build minidocx lib you'll need a C++20 compiler and CMake 3.28.
 
 ```bash
-git clone git@github.com:totravel/minidocx.git
+git clone git@github.com:mziaeem/minidocx.git
 cd minidocx
 
 # Windows
@@ -90,19 +89,10 @@ A static library is built by default. If you want to use a shared build of minid
 - [User Guide](./guide.md)
 
 ## Donation
+If you want to donate me, feel free to send me through crypto
+tron:TGLSMZ7c8CN81kb8r75nY7sEy8xRvTGKah
 
 If you benefit from this project, please consider donating to help me sustain my projects actively and make more of my ideas come true.
-
-Alipay | WeChat Pay
------- | ----------
-![](./assets/qrcode/alipay.png) | ![](./assets/qrcode/wechat.png)
-
-## Sponsor
-
-You can sponsor this library at [AFDIAN](https://afdian.com/a/totravel).
-
-Your sponsorship means a lot to me. It will help me sustain my projects actively and make more of my ideas come true. Much appreciated! 💖 🙏
-
 ## License
 
 minidocx is released to the public for free under the terms of the MIT License. See [LICENSE](./LICENSE) for the full text of the license. [LICENSE](./LICENSE) should be distributed alongside any assemblies that use minidocx in source or compiled form.
