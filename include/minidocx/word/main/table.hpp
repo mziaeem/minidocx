@@ -6,9 +6,9 @@
 
 #pragma once
 
-#include "word/main/base.hpp"
-#include "word/main/properties/table.hpp"
-#include "utils/geometry.hpp"
+#include "base.hpp"
+#include "properties/table.hpp"
+#include "../../utils/geometry.hpp"
 
 #include <memory>
 #include <vector>

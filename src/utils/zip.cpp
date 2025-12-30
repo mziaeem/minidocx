@@ -8,6 +8,7 @@
 #include "utils/exceptions.hpp"
 
 #include "miniz.h"
+#include <cstring>  // for memmove
 
 #include <fstream>
 #include <algorithm>

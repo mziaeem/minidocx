@@ -6,7 +6,7 @@
  * Report bugs and download new versions at https://github.com/totravel/minidocx
  */
 
-#include "config.hpp"
+#include "minidocx/config.hpp"
 #include "word/main/document.hpp"
 #include "word/main/section.hpp"
 #include "word/main/paragraph.hpp"

@@ -6,8 +6,8 @@
 
 #pragma once
 
-#include "config.hpp"
-#include "word/main/base.hpp"
+#include "../../config.hpp"
+#include "base.hpp"
 
 #include <memory>
 #include <list>

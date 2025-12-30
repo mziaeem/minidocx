@@ -6,11 +6,11 @@
 
 #pragma once
 
-#include "word/main/base.hpp"
-#include "word/main/properties/paragraph.hpp"
-#include "word/numbering.hpp"
-#include "packaging/relationship.hpp"
-#include "utils/file.hpp"
+#include "base.hpp"
+#include "properties/paragraph.hpp"
+#include "../numbering.hpp"
+#include "../../packaging/relationship.hpp"
+#include "../../utils/file.hpp"
 
 #include <memory>
 #include <list>

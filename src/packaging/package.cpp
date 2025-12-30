@@ -6,7 +6,7 @@
 
 #include "packaging/package.hpp"
 #include "utils/exceptions.hpp"
-
+#include <cstring>
 #include "pugixml.hpp"
 
 #ifndef NDEBUG

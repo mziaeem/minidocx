@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "word/main/properties/base.hpp"
+#include "base.hpp"
 
 
 namespace MINIDOCX_NAMESPACE

@@ -6,8 +6,8 @@
 
 #pragma once
 
-#include "word/main/container.hpp"
-#include "utils/geometry.hpp"
+#include "container.hpp"
+#include "../../utils/geometry.hpp"
 
 #include <list>
 

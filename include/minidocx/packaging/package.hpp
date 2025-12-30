@@ -6,10 +6,10 @@
 
 #pragma once
 
-#include "utils/zip.hpp"
-#include "utils/file.hpp"
-#include "packaging/part.hpp"
-#include "packaging/relationship.hpp"
+#include "../utils/zip.hpp"
+#include "../utils/file.hpp"
+#include "../packaging/part.hpp"
+#include "../packaging/relationship.hpp"
 
 #include <string>
 #include <map>

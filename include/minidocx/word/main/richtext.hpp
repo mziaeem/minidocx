@@ -6,8 +6,8 @@
 
 #pragma once
 
-#include "word/main/base.hpp"
-#include "word/main/properties/richtext.hpp"
+#include "base.hpp"
+#include "properties/richtext.hpp"
 
 #include <string>
 #include <utility>

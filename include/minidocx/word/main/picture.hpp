@@ -6,9 +6,9 @@
 
 #pragma once
 
-#include "word/main/base.hpp"
-#include "word/main/properties/picture.hpp"
-#include "packaging/relationship.hpp"
+#include "base.hpp"
+#include "properties/picture.hpp"
+#include "../../packaging/relationship.hpp"
 
 
 namespace MINIDOCX_NAMESPACE

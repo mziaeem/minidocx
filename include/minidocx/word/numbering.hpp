@@ -6,8 +6,8 @@
 
 #pragma once
 
-#include "word/main/properties/paragraph.hpp"
-#include "word/main/properties/richtext.hpp"
+#include "main/properties/paragraph.hpp"
+#include "main/properties/richtext.hpp"
 
 #include <string>
 #include <array>

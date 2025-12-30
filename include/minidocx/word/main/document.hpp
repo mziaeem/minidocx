@@ -6,10 +6,10 @@
 
 #pragma once
 
-#include "config.hpp"
-#include "packaging/package.hpp"
-#include "word/styles.hpp"
-#include "word/numbering.hpp"
+#include "../../config.hpp"
+#include "../../packaging/package.hpp"
+#include "../../word/styles.hpp"
+#include "../../word/numbering.hpp"
 
 #include <memory>
 #include <string>

@@ -23,14 +23,15 @@ int main()
     paraStyle.outlineLevel_ = ParagraphProperties::OutlineLevel::Level2;
     paraStyle.fontSize_ = 28;
     paraStyle.color_ = "0000FF";
+    
     doc.addParagraphStyle(paraStyle);
 
     ParagraphPointer para = sect->addParagraph();
-    para->addRichText("Quick Start");
+    para->addRichText("عنوان اصلی");
     para->prop_.style_ = "My Heading 1";
 
     ParagraphPointer para2 = sect->addParagraph();
-    para2->addRichText("Download and Installation");
+    para2->addRichText("این عنوان خوب set شده است. امیدوارم fail نشود.");
     para2->prop_.style_ = "My Heading 2";
 
     doc.saveAs("out/style.docx");

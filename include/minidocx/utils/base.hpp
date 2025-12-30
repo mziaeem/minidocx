@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "config.hpp"
+#include "../config.hpp"
 
 
 namespace MINIDOCX_NAMESPACE

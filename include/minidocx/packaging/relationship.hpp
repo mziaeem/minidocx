@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "packaging/part.hpp"
+#include "../packaging/part.hpp"
 
 #include <string>
 #include <map>

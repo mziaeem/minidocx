@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "word/main/properties/base.hpp"
+#include "base.hpp"
 
 
 namespace MINIDOCX_NAMESPACE
@@ -14,6 +14,8 @@ namespace MINIDOCX_NAMESPACE
   struct ParagraphProperties
   {
     std::string style_;
+    std::bool bidi_;
+    Direction direction_;
 
 
     // Paragraph Alignment 对齐方式
@@ -48,6 +50,11 @@ namespace MINIDOCX_NAMESPACE
       // 首行悬挂
       Hanging
     };
+
+    enum class Direction {
+      Rtl,
+      Ltr
+    }
 
 
     // Paragraph Indentation 缩进
