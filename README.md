@@ -14,10 +14,6 @@ It is working, but still is a work in progress.
 
 minidocx is a modern, free, open-source, cross-platform, light-weight, and user-friendly C++20 library for manipulating Microsoft Word Document (.docx file) as described in [ECMA 376 5th edition](https://www.ecma-international.org/publications-and-standards/standards/ecma-376) or [ISO/IEC 29500-1:2016](https://www.iso.org/standard/71691.html) without installing MS Office or WPS Office.
 
-> [!WARNING]
-> minidocx 1.0 is currently in beta and should not be used in production.
-
-
 ## Features
 
 - Section
